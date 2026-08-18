@@ -1,7 +1,7 @@
 import MovieCard from '@/components/MovieCard';
 import SearchBar from '@/components/SearchBar'
 import type { Movies } from '@/types/movie';
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 
 const Home = () => {
     const [movies,setMovies]=useState<Movies[]>([])

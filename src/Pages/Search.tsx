@@ -1,6 +1,6 @@
 import MovieCard from "@/components/MovieCard";
 import type { searchResult } from "@/types/movie";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 const Search = () => {
